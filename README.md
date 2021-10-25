@@ -81,6 +81,7 @@ The app will show suggestions from people who love to cook and try out new recip
 
 ### [BONUS] Interactive Prototype
 
+### Models
 ## Schema 
 Property	Type	|Description
 user_id	String	|Id of the user profile
@@ -91,8 +92,6 @@ commentsCount	|Number	Comments of the post
 likeCount	Number	|Likes of the post
 created_At	DateTime	|Time the post created
 updatd_At	DateTime	|Time the post is updated
-
-### Models
 
 ### Networking
 Home Feed Screen
@@ -106,3 +105,4 @@ Create Post Screen
 Profile Screen
 (Read/GET) Query logged in user object
 (Update/PUT) Update user profile image
+(Read/Get) Create friends list
