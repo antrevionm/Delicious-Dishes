@@ -83,12 +83,12 @@ The app will show suggestions from people who love to cook and try out new recip
 
 ### Models
 ## Schema 
-[miller woek9c.docx](https://github.com/antrevionm/Delicious-Dishes/files/7414081/miller.woek9c.docx)
+![Screenshot 2021-10-25 164612](https://user-images.githubusercontent.com/81782671/138785641-ef5cf8f2-ccac-40ba-8eec-41d581a796c1.png)
 
 		
 
 ### Networking
-Home Feed Screen
+*Home Feed Screen
 (Read/GET) 
 (Create/POST) Create a new like on a post
 (Delete) Delete existing like
