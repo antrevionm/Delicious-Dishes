@@ -92,12 +92,12 @@ The app will show suggestions from people who love to cook and try out new recip
 
 *(Read/GET) 
 *(Create/POST) Create a new like on a post
-(Delete) Delete existing like
-(Create/POST) Create a new comment on a post
-(Delete) Delete existing comment
-Create Post Screen
-(Create/POST) Create a new post object
-Profile Screen
-(Read/GET) Query logged in user object
-(Update/PUT) Update user profile image
-(Read/Get) Create friends list
+*(Delete) Delete existing like
+*(Create/POST) Create a new comment on a post
+*(Delete) Delete existing comment
+*Create Post Screen
+*(Create/POST) Create a new post object
+*Profile Screen
+*(Read/GET) Query logged in user object
+*(Update/PUT) Update user profile image
+*(Read/Get) Create friends list
