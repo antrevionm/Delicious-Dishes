@@ -89,8 +89,9 @@ The app will show suggestions from people who love to cook and try out new recip
 
 ### Networking
 *Home Feed Screen
-(Read/GET) 
-(Create/POST) Create a new like on a post
+
+*(Read/GET) 
+*(Create/POST) Create a new like on a post
 (Delete) Delete existing like
 (Create/POST) Create a new comment on a post
 (Delete) Delete existing comment
