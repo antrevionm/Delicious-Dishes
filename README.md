@@ -83,15 +83,25 @@ The app will show suggestions from people who love to cook and try out new recip
 
 ### Models
 ## Schema 
-Property	Type	|Description
-user_id	String	|Id of the user profile
-user	Pointer to user	|The user who is logged in
-image	File	|Image of the post
-Captions	|String	Caption of the post
-commentsCount	|Number	Comments of the post
-likeCount	Number	|Likes of the post
-created_At	DateTime	|Time the post created
-updatd_At	DateTime	|Time the post is updated
+Property	Type	Description
+-[]user_id	|String	|Id of the user profile
+user	Pointer to user	The user who is logged in
+image	File	Image of the post
+Captions	String	Caption of the post
+commentsCount	Number	Comments of the post
+likeCount	Number	Likes of the post
+created_At	DateTime	Time the post created
+updatd_At	DateTime	Time the post is updated
+name	String	User’s name
+email	String	User’s email
+post_id	String	Id of the post
+profile_image	File	User’s profile image
+total_likes	Integer	Total likes
+follower_id	String	Follower’s id
+post_comments	String	Comments on the post
+Id	String	User’s id
+		
+		
 
 ### Networking
 Home Feed Screen
