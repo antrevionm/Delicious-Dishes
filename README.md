@@ -82,10 +82,27 @@ The app will show suggestions from people who love to cook and try out new recip
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+Property	Type	|Description
+user_id	String	|Id of the user profile
+user	Pointer to user	|The user who is logged in
+image	File	|Image of the post
+Captions	|String	Caption of the post
+commentsCount	|Number	Comments of the post
+likeCount	Number	|Likes of the post
+created_At	DateTime	|Time the post created
+updatd_At	DateTime	|Time the post is updated
+
 ### Models
-[Add table of models]
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+Home Feed Screen
+(Read/GET) 
+(Create/POST) Create a new like on a post
+(Delete) Delete existing like
+(Create/POST) Create a new comment on a post
+(Delete) Delete existing comment
+Create Post Screen
+(Create/POST) Create a new post object
+Profile Screen
+(Read/GET) Query logged in user object
+(Update/PUT) Update user profile image
