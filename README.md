@@ -29,7 +29,7 @@ The app will show suggestions from people who love to cook and try out new recip
 
 **Required Must-have Stories**
 
-* User logs in to access recent activity.
+[] User logs in to access recent activity.
 * User utilizes the app to interact with others
 * User can view posts, upload posts, and save.
 * Each user has its personal profile
